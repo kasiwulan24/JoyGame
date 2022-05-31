@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@700&display=swap');
+.navbar {
+    height: 113px;
+    background: rgba(6, 1, 1, 0.665);
+    box-shadow: 0 8px 32px 0 rgba(1, 3, 26, 0.37);
+    backdrop-filter: blur( 40px);
+    -webkit-backdrop-filter: blur( 40px);
+}
+
+.nav-item {
+    font-family: 'Montserrat';
+    margin-left: 15px;
+}
+
+.navbar-brand .logo {
+    height: 150;
+}
+
+.navbar .nav-item .btn {
+    border-radius: 30px;
+    width: 158px;
+    height: 40px;
+}
+
+#img-hero {
+    background-color: #060613c1;
+}
+
+#img-hero .img-fluid {
+    height: 780px;
+    left: 0px;
+    top: 0px;
+}
+
+#compani {
+    width: auto;
+    height: 237px;
+    background: #14182C;
+}
+
+#compani .align-items-center {
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+#compani .align-items-center img {
+    width: 100px;
+    height: 50px;
+}
+
+#conten .sub-hiro {
+    height: 400px;
+    left: 0px;
+    top: 1007px;
+    background: #020203;
+    color: aliceblue;
+}
+
+.sub-hiro .container .logo {
+    width: 140px;
+    margin: 20px 20px 20px 20px;
+}
+
+.main-conten {
+    background: #0c0c0e;
+    background-image: linear-gradient(-150deg, #0c0c0e 90%, #0c0c0e 50%, #a601b2c0 35%);
+}
+
+.main-conten .genre-btn {
+    margin-top: 25px;
+}
+
+.main-conten .card-game {
+    margin-top: 50px;
+}
+
+.main-conten .text-main {
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: justify;
+    color: #5D5FEF;
+    text-shadow: 0px 1px 15px rgba(108, 204, 228, 0.49);
+}
+
+.btn-size {
+    width: 240px;
+    height: 50px;
+    left: 110px;
+    top: 2074px;
+    margin-top: 38px;
+    /* Iris/100 */
+    background: #5D5FEF;
+    box-shadow: 0px 0px 4px 4px rgba(11, 206, 255, 0.3);
+    border-radius: 30px;
+}
+
+.main-conten p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    /* or 194% */
+    text-align: center;
+    color: aliceblue;
+}
+
+.card {
+    position: relative;
+    background: rgba(0, 0, 0, 0.883);
+    backdrop-filter: blur(30px);
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.card .card-img {
+    display: block;
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.883);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.card:hover .card-body {
+    height: 100%;
+}
+
+.card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.sub-content {
+    background-color: #0c0c0e;
+    padding-top: 45px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.news-text {
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 74px;
+    color: #5D5FEF;
+    text-align: center;
+}
+
+.news-text-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.investor-content {
+    background-color: #1b1b1f;
+}
+
+.text-center {
+    padding-top: 45px;
+    font-family: 'Aclonica';
+    font-size: 48px;
+    font-weight: 400px;
+    line-height: 74px;
+    text-align: justify;
+    color: #5D5FEF;
+    text-shadow: 0px 0px 4px rgba(11, 206, 255, 0.3);
+}
+
+footer {
+    background-color: #151515;
+}
+
+footer .container {
+    padding-top: 45px;
+    color: aliceblue;
+}
+
+.list-group-item {
+    background-color: transparent;
+    list-style-type: none;
+}
+
+.list-group-item ul li a {
+    list-style-type: none;
+    background-color: aliceblue;
+}
+
+
+/* .card-text {
+    font-family: 'Montserrat';
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+
+/* .card .card-body:hover {} */
